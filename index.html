@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css">
+
+    <title>Resume</title>
+    <style>@page {
+        size: A4
+    }</style>
+</head>
+
+
+<body class="A4">
+<section class="sheet">
+
+    <article class="background">
+
+        <!-- Header -->
+        <div class="header">
+            <img src="images/profile.jpeg" class="profile-image" alt="Profile Image"/>
+
+            <div class="public-info-box">
+                <div class="profile-name">Gevorg Minasyan</div>
+                <div class="public-info-item">
+                    <img src="images/ic_cake.svg" class="public-info-item-image" alt="Birthday"/>
+                    <div class="public-info-item-text">19 Apr 1994</div>
+                    <img src="images/ic_location.svg" class="public-info-item-image" alt="Birthday"/>
+                    <div class="public-info-item-text">Yerevan, Armenia</div>
+                </div>
+                <!--                <div class="public-info-item">-->
+                <!--                    <img src="images/ic_location.svg" class="public-info-item-image" alt="Birthday"/>-->
+                <!--                    <div class="public-info-item-text">Yerevan, Armenia</div>-->
+                <!--                </div>-->
+                <div class="public-info-item">
+                    <img src="images/ic_phone.svg" class="public-info-item-image" alt="Phone"/>
+                    <a class="public-info-item-text" href="tel:+37495208660">+374 95 208660</a>
+                    <img src="images/ic_email.svg" class="public-info-item-image" alt="Email"/>
+                    <a class="public-info-item-text" href="mailto: gevor.minasyan94@gmail.com">gevor.minasyan94@gmail.com</a>
+                    <img src="images/ic_github.svg" class="public-info-item-image" alt="Github"/>
+                    <a class="public-info-item-text" href="https://github.com/gevmin94">github.com/gevmin94</a>
+                </div>
+                <!--                <div class="public-info-item">-->
+                <!--                    <img src="images/ic_email.svg" class="public-info-item-image" alt="Email"/>-->
+                <!--                    <a class="public-info-item-text" href="mailto: gevor.minasyan94@gmail.com">gevor.minasyan94@gmail.com</a>-->
+                <!--                </div>-->
+                <div class="public-info-item">
+
+                </div>
+                <!--                <div class="public-info-item">-->
+                <!--                    <img src="images/ic_google_scholar.svg" class="public-info-item-image"  alt="Google Scholar"/>-->
+                <!--                    <a class="public-info-item-text" href="https://scholar.google.com/citations?user=yqxz50EAAAAJ&hl=en">Google Scholar - Martin Mirakyan</a>-->
+                <!--                </div>-->
+            </div>
+        </div>
+
+
+        <!-- Body - content -->
+        <div class="content-root">
+            <div class="content-left-column">
+
+                <div class="skill-section">
+                    <!-- Skills -->
+                    <div class="section-title">Skills</div>
+                    <div class="enumeration-text">• AI/ML Science, ML Engineering, MLOps</div>
+                    <div class="enumeration-text">• Research Leadership and Management</div>
+                </div>
+
+                <div class="skill-section">
+                    <div class="section-title">Education</div>
+                    <div class="experience-topic-container">
+                        <!--                        <div class="experience-title-card"><span>Master of Science</span></div>-->
+                        <div class="education-details-card text-detail">
+                            <div class="edu-text">Yerevan State University, Master of Science</div>
+                            <div class="edu-text">Numerical Analysis & Mathematical Modelling</div>
+
+                            Thesis: <a class="url-text" href="https://github.com/gevmin94/master-thesis">On
+                            Generalization Error Bound Estimation of Certain Transform Learning Method</a> <br/>
+                            GPA: 20/20
+                            <div class="right-aligned-text bold-text">2017 - 2019</div>
+                        </div>
+                        <div class="education-details-card text-detail">
+                            <div class="edu-text">Yerevan State University, Bacholer of Science</div>
+                            <div class="edu-text">Applied Mathematics and Informatics</div>
+
+                            Thesis: <a class="url-text" href="https://arxiv.org/pdf/1912.01546.pdf">On the deficiency of
+                            complete multipartite graphs</a><br/>
+                            GPA: 19.22/20
+                            <div class="right-aligned-text bold-text">2013 - 2017</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-section">
+                    <!-- Programming languages -->
+                    <div class="section-title">Programming Languages</div>
+                    <img class="horizontal-image" src="images/logo_python.png" alt="Python"/>
+                    <img class="horizontal-image" src="images/logo_java.svg" alt="Java"/>
+                    <img class="horizontal-image" src="images/logo_cpp.png" alt="C++"/>
+                </div>
+
+
+                <div class="skill-section">
+                    <!-- Tools, APIs, Libraries -->
+                    <div class="section-title">Tools, APIs, Libraries</div>
+                    <div class="enumeration-text">
+                        General:
+                        <div class="text-detail">• Git, Jira</div>
+                        <div class="text-detail">• Docker, Docker-Compose</div>
+                        <div class="text-detail">• Gitlab CI/CD</div>
+                        <br/>
+                    </div>
+                    <div class="enumeration-text">
+                        Machine Learning:
+                        <div class="text-detail">• Tensorflow 1, 2, Torch, Keras</div>
+                        <div class="text-detail">• Pytorch, Pytorch Lightning</div>
+                        <div class="text-detail">• SciPy, spaCy, nltk, huggingface-transformers</div>
+                        <br/>
+                    </div>
+                    <div class="enumeration-text">
+                        Backend:
+                        <div class="text-detail">• gRPC, Protobuf</div>
+                        <div class="text-detail">• Swagger</div>
+                        <div class="text-detail">• PostgreSQL, MySQL</div>
+                        <div class="text-detail">• Flask, Gunicorn</div>
+                        <div class="text-detail">• Firebase, Heroku</div>
+                    </div>
+                </div>
+
+
+                <div class="skill-section">
+                    <!-- Education -->
+                    <div class="section-title">Trainings</div>
+                    <div class="edu-text">• Summer school courses in Synergy ( 2 Months, 2015 )
+                    </div>
+                    <div class="edu-text">• Machine learning courses in ACA ( 5 Months, 2017 )
+                    </div>
+                </div>
+                <div class="skill-section">
+                    <!-- Education -->
+                    <div class="section-title">Volunteer Work</div>
+                    <div class="edu-text">• WCIT 2019 - Music Score Generation Modeling
+                    </div>
+                    <div class="edu-text">• COVID19 - Epidemic Models (Rt estimation)
+                    </div>
+                </div>
+
+
+                <div class="skill-section">
+                    <!-- Hobbies -->
+                    <div class="section-title">Hobbies</div>
+                    <img class="horizontal-image" src="images/swimming.png" alt="Travel"/>
+                    <img class="horizontal-image" src="images/football.png" alt="Football"/>
+                    <img class="horizontal-image" src="images/reading.png" alt="Break Dance"/>
+                </div>
+            </div>
+
+            <div class="content-right-column">
+                <!-- Experience -->
+                <div class="skill-section">
+                    <div class="section-title">Experience</div>
+
+                    <div class="experience-topic-container">
+                        <div class="experience-title-card"><span>Podcastle AI</span></div>
+                        <div class="experience-details-card text-detail">
+                            <div class="enumeration-text">
+                               Lead AI/ML Research Scientist at Podcastle
+                            </div>
+                            <ul>
+                                <li>
+                                    Neural TTS, Voice Cloning
+                                </li>
+                                <li>
+                                    Speech Enhancement
+                                </li>
+                                <li>
+                                    Studio Relight
+                                </li>
+                            </ul>
+                            <div class="right-aligned-text bold-text">2021 July - Present</div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="experience-topic-container">
+                        <div class="experience-title-card"><span>Bayview Technologies<br/> AI/ML Science</span></div>
+                        <div class="experience-details-card text-detail">
+                            <div class="enumeration-text">
+                                AI/ML Scientist at Sportion AM
+                            </div>
+                            <ul>
+                                <li>
+                                    Article Suggestion System
+                                </li>
+                                <li>
+                                    Response Suggestion System
+                                </li>
+                                <li>
+                                    Kubeflow ML Pipelines
+                                </li>
+                            </ul>
+                            <div class="right-aligned-text bold-text">2017 July - 2019 Sep</div>
+                        </div>
+                    </div>
+                    <div class="experience-topic-container">
+                        <div class="experience-title-card"><span>Intent.ai <br/> AI/ML Science</span></div>
+                        <div class="experience-details-card text-detail">
+                            <div class="enumeration-text">AI/ML Scientist at Intent.ai</div>
+                            <ul>
+                                <li>
+                                    Demographic attribute prediction system
+                                </li>
+                                <li>
+                                    Website categorization system
+                                </li>
+                                <li>
+                                    Users' interests prediction system
+                                </li>
+                            </ul>
+                            <!--                            Technologies used:<br/>-->
+                            <!--                            <ul>-->
+                            <!--                                <li>Tensorflow, PySpark</li>-->
+                            <!--                                <li>Starspace, CNN</li>-->
+                            <!--                                <li>Topic Modeling, Guided LDA</li>-->
+                            <!--                                <li>MongoDB, fairseq</li>-->
+                            <!--                                <li>Selenium, Celery DTQ</li>-->
+                            <!--                            </ul>-->
+                            <div class="right-aligned-text bold-text">2017 July - 2019 Sep</div>
+                        </div>
+                    </div>
+
+                    <div class="experience-topic-container">
+                        <div class="experience-title-card"><span>UCOM <br/> AI/ML Science</span></div>
+                        <div class="experience-details-card text-detail">
+                            <div class="enumeration-text">Lead AI/ML Scientist at UCOM LLC</div>
+                            <ul>
+                                <li>Identify and define research directions</li>
+                                <li>Managing a small team (4-6 ai/ml scientist), interviewing candidates</li>
+                            </ul>
+
+
+                            <div class="right-aligned-text bold-text">Feb 2020 – Oct 2020</div>
+                            <br/>
+                            <div class="enumeration-text">ML Scientist at UCOM LLC</div>
+                            <br/>
+                            <ul>
+                                <li>Prototype machine-learning models</li>
+                                <li>Telecom data analytics (cdr, dns, payments history)</li>
+                                <li>Credit Scoring, Churn Prediction</li>
+                            </ul>
+                            <div class="right-aligned-text bold-text">Sep 2017 – Feb 2020</div>
+                        </div>
+                    </div>
+
+
+                    <div class="experience-topic-container">
+                        <div class="experience-title-card"><span>Software Development</span></div>
+                        <div class="experience-details-card text-detail">
+                            <div class="enumeration-text">Software Engineer at Synergy Int. Systems</div>
+                            <br/>
+                            Tasks include: <br/>
+                            <ul>
+                                <li>Design and implementation of large data entries.</li>
+                                <li>Develop cross-browser web applications.</li>
+                                <li>Working experience with relational database.</li>
+                            </ul>
+
+                            Technologies used:<br/>
+                            <ul>
+                                <li>JAVA, Groovy, Spring Framework, MSSQL</li>
+                                <li>JSP, JSF, XHTML, JavaScript</li>
+                            </ul>
+                            <div class="right-aligned-text bold-text">Sep 2015 - Apr 2017</div>
+                        </div>
+                    </div>
+                    <!--                    <div class="section-title">Education</div>-->
+                    <!--                    <div class="experience-topic-container">-->
+                    <!--                        <div class="experience-title-card"><span>Master of Science</span></div>-->
+                    <!--                        <div class="experience-details-card text-detail">-->
+                    <!--                            <div class="enumeration-text">Numerical Analysis & Mathematical Modelling at YSU</div>-->
+                    <!--                            <br/>-->
+                    <!--                            Thesis: <a class="url-text" href="https://github.com/Gevorg-Minasyan/master-thesis">On-->
+                    <!--                            Generalization Error Bound Estimation of Certain Transform Learning Method</a> <br/>-->
+                    <!--&lt;!&ndash;                            Advisor: Hayk E. Danoyan <br/>&ndash;&gt;-->
+                    <!--                            GPA: 20/20-->
+                    <!--                            <div class="right-aligned-text bold-text">2017 - 2019</div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="experience-topic-container">-->
+                    <!--                        <div class="experience-title-card"><span>Bachelor of Science</span></div>-->
+                    <!--                        <div class="experience-details-card text-detail">-->
+                    <!--                            <div class="enumeration-text">Applied Mathematics and Informatics at YSU</div>-->
+                    <!--                            <br/>-->
+                    <!--                            Thesis: <a class="url-text" href="https://arxiv.org/pdf/1912.01546.pdf">On the deficiency of-->
+                    <!--                            complete multipartite graphs</a> <br/>-->
+                    <!--                            Advisor: Petros A. Petrosyan <br/>-->
+                    <!--                            GPA: 19.22/20-->
+                    <!--                            <div class="right-aligned-text bold-text">2013 - 2017</div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+
+    </article>
+
+</section>
+<!--<section class="sheet">-->
+
+<!--    <article class="background">-->
+
+<!--        &lt;!&ndash; Body - content &ndash;&gt;-->
+<!--        <div class="content-root">-->
+<!--            <div class="content-left-column">-->
+
+
+<!--                &lt;!&ndash;                <div class="skill-section">&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <div class="section-title">Languages</div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <ul style="margin-block-start: 0.3em; margin-block-end: 0.3em">&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <li class="lang-li">&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="enumeration-text bar-label">Armenian</div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="skills-bar-container">&ndash;&gt;-->
+<!--                &lt;!&ndash;                                <div class="skills-bar armenian"></div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <li class="lang-li">&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="enumeration-text bar-label">English</div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="skills-bar-container">&ndash;&gt;-->
+<!--                &lt;!&ndash;                                <div class="skills-bar english"></div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <li class="lang-li">&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="enumeration-text bar-label">Russian</div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            <div class="skills-bar-container">&ndash;&gt;-->
+<!--                &lt;!&ndash;                                <div class="skills-bar russian"></div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                            </div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    </ul>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </div>&ndash;&gt;-->
+<!--            </div>-->
+
+<!--            <div class="content-right-column">-->
+<!--                &lt;!&ndash; Experience &ndash;&gt;-->
+
+<!--            </div>-->
+<!--        </div>-->
+
+
+<!--    </article>-->
+
+<!--</section>-->
+</body>
+</html>
